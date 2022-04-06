@@ -1,0 +1,793 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed';
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+}
+
+.logo a img{
+    height: 115px;
+    margin-left: 70px;
+}
+
+.call i{
+    margin-right: 15px;
+}
+
+.email span{
+    font-size: 15px;
+    color:rgb(102, 102, 102);
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+}
+
+.call button{
+    display: none;
+}
+
+.social_media1{
+    display: none;
+}
+
+.call {
+    margin-top: 40px;
+    display: flex;
+    margin-left: 180px;
+}
+
+.social_media{
+    margin-top: 45px;
+    margin-right: 50px;
+}
+
+.social_media a{
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+/* -------------------middle header---------------- */
+.image_slide img{
+    height: 600px;
+    width: 100%;
+}
+
+/* -----------amardeep button-------------------------------- */
+.innerImgText{
+    position: absolute;
+    left: 24%;
+    margin-top: -31%;
+    text-align: center;
+}
+
+.innerImgText .title{
+    font-size: 71px;
+    font-weight: 900;
+    letter-spacing: -3px;
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.innerImgText p{
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.innerImgText .amardeepButton{
+    background-color: #fff;
+    width: 150px;
+    margin-left:  40%;
+    padding: 18px 15px;
+    border-radius: 30px;
+    margin-top: 10px;
+    color: #000;
+}
+
+.innerImgText .amardeepButton a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.innerImgText .amardeepButton:hover{
+    background-color: #c6146f;
+    color: #fff;
+}
+
+.card_img .card-title {
+    margin-top: 44px;
+    font-weight: 900;
+}
+
+.card_img1 .card-title {
+    margin-top: 35px;
+    font-weight: 900;
+}
+
+.dot_icon{
+    height: 20px !important;
+    width: 20px !important;
+    border-radius: 50% !important;
+    background-color: #c6146f !important;
+}
+
+.nav_head{
+    width: 1008px;
+    margin: auto;
+    margin-bottom: -69px;
+    z-index: 1;
+    height: 61px;
+    background-color: #c6146f !important;
+}
+
+.nav_head .active{
+    background-color: #e22689;
+    margin-left: -16px;
+}
+
+.nav_head ul li{
+    display: block;
+    width: 220px;
+    border-right: 2px solid #cc2c7e;
+    text-align: center;
+    line-height: 45px;
+    text-transform: uppercase;
+
+}
+
+.nav_head ul li a{
+    color: #fff !important;
+}
+
+.nav_head ul li:hover{
+    background-color: #e22689;
+}
+
+/* --------------------section----------------------------------------- */
+.editWelcome{
+    margin-top: 80px;
+}
+
+.about {
+    margin-top: -42px;
+}
+
+.editWelcome h2{
+    color: #272727;
+    font-family:Sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.editWelcome h2 span{
+    color: #c6146f;
+    text-transform: uppercase;
+}
+
+.editWelcome p{
+    font-size: 19px;
+    color: #989898;
+}
+
+.aboutImg img{
+    margin-top: 50px;
+    height: 350px;
+    margin-left: -26px;
+}
+
+/* -----------service------------------ */
+
+.serviceImg{
+    width: 100%;
+    margin-top: 45px;
+}
+.serviceImg1{
+    margin-top: 5px;
+    width: 100%;
+}
+/* 
+.card_img{
+    width: 350px;
+} */
+
+.card_img1{
+    width: 350px;
+}
+
+.serviceImg2{
+    margin-top: 5px;
+    width: 100%;
+}
+
+.card-title{
+    text-transform: uppercase;
+}
+
+
+/* ----------------------------Gallery Image-------------------------------- */
+
+.galleryImg .row{
+    margin-bottom: 30px;
+}
+
+.gallery_section{
+    background-color: #efe8d8;
+    padding-bottom: 40px;
+}
+
+.gallery{
+    padding-top: 50px;
+    margin: 100px;
+}
+
+.gallery h2{
+    margin-top: 50px;
+    text-transform: uppercase;
+    border-left: 5px solid #c6146f;
+    padding-left: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.galleryImg img{
+    border: 10px solid white;
+    transition: all 1s;
+}
+
+.galleryImg .row .card:hover{
+    background-color: #c00766;
+    opacity: 0.5;
+}
+
+
+/* --------------------------Contact------------------------------- */
+
+.form_container{
+    margin: 80px;
+}
+
+.form_label h4{
+    font-weight: 900;
+    margin: 10px 10px;
+}
+
+
+/* -----------------------------footer------------------------------------- */
+
+
+.footer{
+    padding: 100px 40px;
+    background-color: #191919;
+    color: #fff;
+}
+
+.footer a,p{
+    color: #606060;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: #fff;
+}
+
+.social_media2{
+    margin-top: 50px;
+}
+
+.social_media2 a i{
+    margin-left: 34px; 
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    padding: 0;
+    text-align: center;
+    transition: all .6s ease 0;
+    width: 35px;
+}
+
+.social_media2 a i:hover{
+    color: #000;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.footer_nav li{
+    color: #fff;
+    display: flex;
+    margin-left: 116px;
+}
+
+.bottom_footer{
+    border-top: 1px solid #252525;
+    width: 120%;
+    height: 50px;
+    margin: 55px -40px -50px -55px;
+    padding-top: 40px;
+}
+
+.bottom_footer p{
+    margin-left: 50px;
+}
+
+/* .scrollabout1{
+    opacity: 0;
+}
+
+.scrollabout1 .animated{
+    opacity: 1;
+} */
+
+
+
+
+
+
+/* ///////////////////////////Responsive////////////////////// */
+
+
+@media only screen and (max-width: 650px) {
+
+    .logo a img {
+        height: 115px;
+        margin-left: 25px;
+        margin-bottom: -28px;
+    }
+
+    .call {
+        margin-top: 40px;
+        display: flex;
+        margin-left: -7px;
+    }
+
+    .social_media{
+        margin-bottom: 30px;
+        margin-right: 0px;
+        margin-left:-55px
+    }
+
+    /* ---------menu------------- */
+
+    .AmardeepHumburger .bar1,.bar2,.bar3{
+        width: 32px;
+        height: 4px;
+        margin-left: -4px;
+        background-color: black;
+        margin-top: 6px;
+        justify-content: space-between;
+        transition: all 1s ease-in-out;
+    }
+
+    .AmardeepHumburger.active .bar1 {
+        transform: rotate(45deg) translate(9px, 7px);
+    }
+
+    .AmardeepHumburger.active .bar2 {
+        opacity: 0;
+    }
+    
+    .AmardeepHumburger.active .bar3 {
+        transform: rotate(-41deg) translate(6px, -6px);
+    }
+
+    .call button{
+        display: block;
+    }
+    
+    .social_media1{
+        display: block;
+    }
+
+    .defineNav nav{
+        height: 0px;
+    }
+    
+    .nav_head{
+        width: 450px;
+        height: 670px;
+        /* margin-bottom: -724px; */
+        /* margin-top: -170px; */
+        position: absolute;
+        margin-top: 155px;
+        /* opacity: 0.9; */
+        transform: translateX(-110%);
+        transition: all 1s ease-in-out;
+        z-index: 5;
+    }
+
+    ul.carousel-indicators {
+        z-index: 1 !important;
+    }
+
+    .btn.AmardeepHumburger {
+        margin-top: -15px;
+        padding-left: 30px;
+        cursor: pointer;
+    }
+
+    .AmardeepHumburger.active div{
+        background-color: #fff;
+    }
+
+    .nav_head ul {
+        margin-top: 60px;
+    }
+
+    .btn.AmardeepHumburger.active {
+        z-index: 10;
+    }
+
+    .emailNav{
+        color: white;
+        margin-top: 40px;
+        margin-left: 15%;
+        font-size: 25px;
+    }
+
+    .image_slide img {
+        height: auto;
+    }
+
+    .image_slide {
+        margin-top: -8px;
+    }
+
+    .card_img img{
+        width: 300px;
+    }
+
+    .galleryImg .card{
+        margin-top: 20px;
+    }
+
+    li.dot_icon {
+        opacity: 0.5 !important;
+    }
+
+    .innerImgText {
+        position: absolute;
+        left: 0%;
+        margin-top: -50%;
+    }
+
+    .innerImgText .title {
+        font-size: 29px;
+        letter-spacing: 0px;
+    }
+
+    .innerImgText p {
+        font-size: 12px;
+    }
+
+    .innerImgText .amardeepButton {
+        width: 67px;
+        padding: 0px 0px;
+        margin-top: -12px;
+    }
+
+    .innerImgText .amardeepButton a {
+        font-size: 11px;
+    }
+
+    .social_media1{
+        margin-top: 25px;
+        margin-left: 92px;
+        margin-right: 139px;
+    }
+
+    .social_media1 a i {
+        margin-left: 34px;
+        font-size: 24px;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        margin-top: 25px;
+        height: 35px;
+        line-height: 35px;
+        padding: 0;
+        text-align: center;
+        transition: all .6s ease 0;
+        width: 35px;
+    }
+
+    .social_media1 a i:hover{
+        color: #000;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    button.AmardeepHumburger {
+        padding: 10px 15px 14px 18px;
+    }
+
+    .container_come{
+        transform: translateX(-10%);
+    }
+    
+    .nav_head .active{
+        margin-left: 0px;
+    }
+    
+    .nav_head ul li{
+        width: 450px;
+        margin-left: 0px;
+        border-bottom: 5px solid #cc2c7e;
+    }
+    
+    .nav_head ul li a{
+        color: #fff !important;
+    }
+    
+    .nav_head ul li:hover{
+        background-color: #e22689;
+    }
+
+
+    /* -----------menu end------------/ */
+
+    .editWelcome h2 {
+        font-size: 30px;
+        margin-top: -43px;
+    }
+
+    .aboutImg img {
+        margin-top: 23px;
+        height: 293px;
+        margin-left: -15px;
+    }
+
+    .card_img,.card_img1{
+        width: 300px;
+    }
+
+    .gallery {
+        padding-top: 10px;
+    }
+
+    .serviceImg,.serviceImg1,.serviceImg2 {
+        margin-left: 6px;
+    }
+
+    .gallery h2{
+        margin-left: -15px;
+    }
+
+    .google_map iframe {
+        height: 300px;
+        width: 330px;
+        margin-left: -78px;
+        margin-top: 50px;
+    }
+
+    .footer_nav li {
+        margin-left: 54px;
+    }
+
+    .social_media2 {
+        margin-right: -55px;
+    }
+
+    .mobile h5{
+        margin-left: 18px;
+    }
+
+    .mobile h5 a{
+        display: block;
+        margin-top: 12px;
+        margin-left: -64px;
+    }
+
+    .description{
+        margin-left: 20px;
+    }
+
+    .footer .col-md-4 {
+        margin-top: 50px;
+    }
+
+    .social_media2 {
+        margin-top: 25px;
+        margin-left: -57px;
+    }
+
+    .gallery {
+        margin: 6px;
+    }
+
+    .bottom_footer {
+        height: 100px;
+    }
+
+    .bottom_footer p {
+        margin-left: 65px;
+    }
+
+    .bottom_footer h6 strong{
+        margin-right: 0px !important;
+    }
+  }
+
+
+  /* //////////////////////ipad Responsive////////////////////// */
+
+  @media only screen and (min-device-width: 700px) and (max-device-width: 820px) {
+    .google_map iframe {
+        height: 350px;
+        width: 350px;
+    }
+
+    .logo a img {
+        margin-left: -25px;
+    }
+
+    .call {
+        margin-left: 0px;
+    }
+
+    .aboutImg img {
+        margin-top: 155px;
+        height: 280px;
+        margin-left: -129px;
+    }
+
+    .image_slide img {
+        height: 400px;
+    }
+
+    .innerImgText {
+        position: absolute;
+        left: 3%;
+        margin-top: -40%;
+    }
+
+    .card_img {
+        width: 200px;
+    }
+
+    .card_img img{
+        width: 240px;
+        height: 200px;
+    }
+
+    .card_img1{
+        width: 200px;
+    }
+
+    .form-group {
+        margin-bottom: -2rem;
+    }
+
+    .form_container {
+        margin: 80px 10px;
+    }
+
+    .gallery {
+        margin: 6px;
+    }
+
+    .form-control-lg {
+        font-size: 11px;
+    }
+
+    .form_container button{
+        margin-top: 22px;
+        margin-left: -15px;
+    }
+
+    .editWelcome h2 {
+        font-size: 34px;
+    }
+
+    .editWelcome p {
+        font-size: 15px;
+        margin-right: 90px;
+    }
+
+    .social_media {
+        margin-top: 29px;
+        margin-right: 0px;
+    }
+
+    .nav_head{
+        width: 720px;
+    }
+
+    .nav_head ul {
+        display: contents;
+    }
+
+    .nav_head ul li {
+        display: inline-block;
+        width: 144px;
+        border-right: 2px solid #cc2c7e;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .footer_nav li {
+        margin-left: 27px;
+    }
+
+    .social_media2 a i {
+        margin-left: 1px;
+    }
+
+    .ml-5, .mx-5 {
+        margin-left: 0rem!important;
+    }
+
+    .mobile h5 a{
+        margin-left: 0px;
+    }
+  }
+
+  @media only screen and (min-device-width: 780px) and (max-device-width: 1024px){
+    .logo a img {
+        margin-left: 0px;
+    }
+
+    .call {
+        margin-left: 25px;
+    }
+
+    .card_img img{
+        width: 300px;
+        height: 250px;
+    }
+
+    .innerImgText {
+        position: absolute;
+        left: 15%;
+        margin-top: -34%;
+    }
+
+    .social_media a {
+        margin-left: 30px;
+    }
+
+    .editWelcome p {
+        margin-right: 95px;
+    }
+
+    .image_slide img {
+        height: 500px;
+    }
+
+    .aboutImg img {
+        margin-top: 139px;
+        margin-left: -136px;
+    }
+
+    .card_img {
+        width: 293px;
+    }
+
+    .card_img1{
+        width: 293px;
+    }
+
+    .gallery {
+        margin: 45px;
+    }
+
+    .google_map iframe {
+        height: 440px;
+        width: 430px;
+        margin-left: 0px;
+    }
+
+    .footer_nav li {
+        margin-left: 65px;
+    }
+  }
