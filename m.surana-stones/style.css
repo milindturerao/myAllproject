@@ -1,0 +1,819 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.index_Page .invisible_navbar{
+    opacity: 0;
+    position: fixed;
+    height: 65px;
+    background-color: white;
+    width: 100%;
+    z-index: 15;
+}
+
+.nav_head ul{
+    position: absolute;
+    right: 100px;
+    top: 0;
+}
+
+.navbar-brand.logo1 img {
+    height: 65px;
+    margin-left: 100px;
+    margin-top: -5px;
+}
+
+.nav_head ul li a{
+    text-decoration: none;
+    padding: 22px 30px !important;
+    border-radius: 2px;
+    color: #000;
+    font-size:15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav_head ul li a:hover{
+    background-color: #ff6600;
+    color: #fff;
+}
+
+/* -------visible navbar------------- */
+
+.head{
+    height: 120px;
+}
+
+.logo2 a img {
+    height: 85px;
+}
+
+.logo2 {
+    margin: 20px 100px;
+}
+
+.visiting.col-md-9 {
+    display: flex;
+    padding-left: 200px;
+}
+
+.visiting .col-sm-4{
+    margin-right: -5px;
+}
+
+.visiting .col-sm-4 .locotion,.call,.time,.visiting12 .locotion{
+    display: flex;
+    padding-top: 40px;
+    margin-right: -20px;
+}
+
+.call i {
+    transform: rotate(-35deg);
+    margin-right: 0px !important;
+}
+
+.visiting .col-sm-4 i,.visiting12 i{
+    font-size: 40px;
+    color: #ff6600;
+    margin-right: 10px;
+}
+
+.nav_head_below_header ul{
+    display: flex;
+    margin-left: 40px;
+}
+
+.nav_head_below_header ul li.active a{
+    color: #ff6600;
+}
+
+.nav_head_below_header ul li{
+    display: inline-block;
+    padding: 10px 40px;
+    margin-left: 1px;
+}
+
+.nav_head_below_header ul li a:hover{
+    color: #ff6a11;
+}
+
+.nav_head_below_header ul li.active::before{
+    position: absolute;
+    background-color: #ff6600;
+    width: 165px;
+    content: '';
+    height: 2px;
+    top: 120px;
+}
+
+.nav_head_below_header ul li::before{
+    position: absolute;
+    background-color: #ff6600;
+    width: 0px;
+    content: '';
+    height: 2px;
+    top: 120px;
+}
+
+.nav_head_below_header ul li:hover::before{
+    position: absolute;
+    background-color: #ff6600;
+    width: 165px;
+    content: '';
+    height: 2px;
+    margin-left: -35px;
+    top: 120px;
+    transition:  all 1s;
+}
+
+.nav_head_below_header ul li a{
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* --------------------------------slider......swipper------------------------------- */
+
+.slider {
+    margin-top: 65px;
+}
+
+.image_slide img{
+    height: 600px;
+    width: 100%;
+}
+
+.slider .carousel{
+    z-index: -1;
+}
+
+.topic_between .container-fluid .col-md-12{
+    display: flex;
+    padding: 35px 100px 25px 100px;
+    background-color: #ff6600;
+}
+
+.topic_between .container-fluid .col-md-12 p{
+    font-size: 21px;
+    color: #fff;
+}
+
+.topic_between .baton{
+    margin-top: 7px;
+}
+
+.topic_between .baton a{
+    padding: 15px 50px;
+    margin-left: 70px;
+    border: 2px solid;
+    font-size: 17px;
+    color: #fff;
+    background-color: #ff6a11;
+    text-decoration: none;
+}
+
+/* ---------------------------------about-------------------------- */
+
+.aboutImg img {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.aboutSurana h1,.serviceSurana h1,.partnerSurana h1{
+    font-weight: 700;
+    margin: 30px;
+}
+
+
+/* ----------------services-------------------------- */
+
+.card_img .card .card-body .card-text{
+    overflow: overlay;
+    height: 120px;
+}
+
+.card_img .card img {
+    height: 300px;
+}
+
+/* -------------------------------------footer Layout page----------------------------------- */
+
+.top_footer {
+    padding: 55px 120px;
+    color: #e3e3ea;
+}
+
+.footerSurana .baton a{
+    padding: 15px 50px;
+    border: 2px solid;
+    font-size: 17px;
+    color: #fff;
+    background-color: #ff6a11;
+    text-decoration: none;
+}
+
+.footerSurana .baton a:hover{
+    color: #ff6600;
+    background-color: #343a40;
+}
+
+.footer_serve .ser_title,.footer_link .ser_title,.footer_contact .ser_title{
+    margin-top: 25px;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(255,255,255,0.10);
+}
+
+.footer_serve .ser_title::before,.footer_link .ser_title::before,.footer_contact .ser_title::before {
+    position: absolute;
+    background-color: #ff6600;
+    width: 90px;
+    content: '';
+    height: 1px;
+    left:33%;
+    bottom: -1px;
+}
+
+.footer_description p {
+    margin-bottom: 45px;
+}
+
+.service_menu,.link_menu ul.navbar-nav {
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 85px;
+}
+
+.partnerSurana {
+    margin-bottom: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.link_menu ul li a {
+    color: #fff;
+}
+
+.visiting12 .locotion,.visiting12 .call,.visiting12 .time{
+    padding-top: 20px !important;
+    border-bottom: 1px solid;
+}
+
+.email_msg a{
+    color: #ff6a11;
+    font-size: 17px;
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.footer_logo img {
+    height: 80px;
+    width: 225px;
+    margin-bottom: 20px;
+}
+
+.link_menu ul li a:hover{
+    color: #ff6a11;
+}
+
+.bottom_footer .container-fluid{
+    border-top: 2px solid;
+    padding: 50px 0px 30px 0px !important;
+    width: 100%;
+    overflow: hidden;
+}
+
+.bottom_footer p {
+    text-align: center;
+    color: white;
+    margin-left: 20px;
+}
+
+.bottom_footer p strong{
+    color: #ff6a11;
+}
+
+.social_media2 a i {
+    color: white;
+    padding: 9px;
+    border-radius: 5px;
+}
+
+.social_media2 a i:hover{
+    border: 2px solid;
+    color: #ff6a11;
+}
+
+.SUSHA h6{
+    color: white;
+}
+
+.about_SuranaPage .address{
+    margin: 30px;
+}
+
+.about_SuranaPage .address iframe{
+    height: 400px;
+    width: 100%;
+}
+
+.about_SuranaPage .address_content {
+    margin: 50px 20px;
+}
+
+.about_SuranaPage .Aboutcall,.Aboutlocotion {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.about_SuranaPage .Aboutcall i {
+    font-size: 50px;
+    transform: rotate(-40deg);
+    color: #ff6a11;
+}
+
+.address_content h2 {
+    font-weight: 600;
+    color: #ff6600;
+}
+
+.about_SuranaPage .Aboutlocotion i {
+    font-size: 50px;
+    color: #ff6a11;
+    padding-right: 10px;
+}
+
+
+
+/* ------------------------Responsive--------------------------------- */
+
+
+@media only screen and (max-width: 650px) {
+
+    .index_Page{
+        overflow: hidden;
+    }
+
+    .logo1 a img{
+        padding-left: 20px;
+    }
+
+    .head {
+        height: 80px;
+        background-color: #fff;
+        z-index: 20;
+        position: fixed;
+    }
+
+    .head .container-fluid {
+        padding: 0px !important;
+    }
+
+    .visiting.col-md-9{
+        display: none;
+    }
+
+    .navbar-brand.logo1 img {
+        margin-left: 25px;
+    }
+
+    .stone_humburger{
+        position: absolute;
+        margin-top: 20px;
+        cursor: pointer;
+        right: 40px;
+        top: 0px;
+    }
+
+    .logo2 img {
+        height: 60px;
+        margin: -10px -70px;
+    }
+
+    .logo2 {
+        margin: 0px 77px;
+    }
+
+    .nav_head_below_header ul li.active::before {
+        display: none;
+    }
+
+    #nav_head{
+        display: none;
+    }
+
+    .nav_head_below_header{
+        height: 320px;
+        width: 100%;
+        background-color: #fff;
+        transform: translateX(100%);
+        transition: all 1s ease-in-out;
+        z-index: 20;
+    }
+
+    .nav_head_below_header ul{
+        display: block;
+        margin-left: 0px;
+    }
+
+
+    .nav_head_below_header ul li.active{
+        background-color: #ff6a11;
+    }
+
+    .nav_head_below_header ul li{
+        width: 100%;
+        margin-left: 0px;
+        border-bottom: 1px solid ;
+    }
+
+    .nav_head_below_header ul li:hover{
+        background-color: #ff6a11;
+    }
+
+    .nav_head_below_header ul li a:hover{
+        color: #fff;
+    }
+
+    .nav_head_below_header ul li.active a {
+        color: #fff;
+    }
+
+    .stone_humburger .bar1, .bar2, .bar3 {
+        width: 30px;
+        height: 3px;
+        border-radius: 25px;
+        margin-left: -4px;
+        background-color: black;
+        margin-top: 6px;
+        justify-content: space-between;
+        transition: all 1s ease-in-out;
+    }
+
+    .stone_humburger.active .bar1 {
+        transform: rotate(45deg) translate(7px, 6px);
+    }
+
+    .stone_humburger.active .bar2 {
+        opacity: 0;
+    }
+    
+    .stone_humburger.active .bar3 {
+        transform: rotate(-41deg) translate(6px, -6px);
+    }
+
+    .container_come{
+        transform: translateX(0%);
+    }
+
+    .slider {
+        margin-top: 80px;
+    }
+
+    #nav_head .navbar-brand{
+        margin-right: 0rem !important;
+    }
+
+    .container-fluid .col-md-12 {
+        height: 210px;
+        display: inline !important;
+        padding: 0px 0px 0px 0px !important;
+        text-align: center;
+    }
+
+    .topic_between .baton a {
+        padding: 11px 33px;
+        margin: 10px 20px;
+    }
+
+    .topic_between .container-fluid .col-md-12 p {
+        margin: 25px 0px;
+    }
+
+    .image_slide img{
+        height: 300px;
+        width: 100%;
+    }
+
+    .aboutImg img {
+        width: 100%;
+    }
+
+    p.card-text.pable,p.card-text.granite {
+        padding-bottom: 20px;
+    }
+
+    .card_img .card{
+        margin-bottom: 25px;
+    }
+
+    .top_footer {
+        padding: 15px 30px;
+    }
+
+    .footerSurana .baton a {
+        padding: 15px 30px;
+    }
+
+    .footer_serve .ser_title, .footer_link .ser_title, .footer_contact .ser_title {
+        text-align: left;
+        font-size: 35px;
+        padding-bottom: 15px;
+    }
+
+    .service_menu, .link_menu ul.navbar-nav {
+        margin-top: 0px;
+        font-size: 20px;
+        margin-left: 0px;
+    }
+
+    .top_footer .col-md-3 li.nav-link {
+        margin: -8px 0px;
+    }
+
+    .top_footer .col-md-3 li a.nav-link {
+        display: initial;
+    }
+
+    .footer_serve .ser_title::before, .footer_link .ser_title::before, .footer_contact .ser_title::before {
+        height: 2px;
+        left: 0%;
+    }
+
+    .bottom_footer p {
+        margin-left: 0px;
+    }
+
+    .SUSHA h6,.bottom_footer p {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .social_media2.text-center {
+        margin-bottom: 15px;
+    }
+
+    
+} 
+
+@media only screen and (min-width: 660px) and (max-width: 800px){
+
+    .logo2 {
+        margin: 20px 10px;
+    }
+
+    .nav_head ul {
+        right: 10px;
+        display: -webkit-inline-box;
+    }    
+
+    .visiting.col-md-9 {
+        padding-left: 90px;
+    }
+
+    .nav_head_below_header ul {
+        margin-left: 0px;
+    }
+
+    .visiting .col-sm-4 {
+        margin-right: 0px;
+        font-size: 10px;
+    }
+
+    .visiting .col-sm-4 i, .visiting12 i {
+        font-size: 30px;
+        margin-right: 5px;
+    }
+
+    .navbar-brand.logo1 img {
+        margin-left: 15px;
+    }
+
+    .slider {
+        margin-top: 65px;
+    }
+
+    .topic_between .container-fluid .col-md-12 {
+        padding: 5px 30px 25px 30px;
+        display: block;
+        text-align: center;
+    }
+
+    .topic_between .baton {
+        margin-top: 20px;
+    }
+
+    .topic_between .baton a {
+        padding: 15px 30px;
+        margin-left: 0px;
+    }
+
+    .aboutImg img {
+        width: 210%;
+    }
+
+    .col-lg-6.col-md-6.col-sm-6.aboutImg {
+        padding: 70px 10px 25px 15px;
+    }
+    
+    .aboutImg .row .col-md-6{
+        max-width: 100% !important;
+    }
+    
+    .aboutImg .row {
+        display: block;
+    }
+    
+    .col-lg-6.col-md-6.col-sm-6.aboutText {
+        font-size: 19px;
+    }
+
+    .card_img .card img {
+        height: 230px;
+    }
+
+    .community_logo img {
+    width: 160px;
+    height: 100px;
+    }
+
+    .top_footer {
+        padding: 15px 20px;
+        color: #e3e3ea;
+        font-size: x-small;
+    }
+
+    .footer_logo img {
+        height: 75px;
+        width: 160px;
+    }
+
+    .service_menu, .link_menu ul.navbar-nav {
+        margin-top: 0px;
+        font-size: 17px;
+        margin-left: 40px;
+    }
+
+    .footerSurana .baton a {
+        padding: 6px 8px;
+        margin-left: -8px;
+    }
+
+    .email_msg p {
+        font-size: initial;
+    }
+
+    .bottom_footer p {
+        margin-left: 0px;
+    }
+
+    .social_media2 a i {
+        padding: 5px;
+    }
+
+    .footer_serve .ser_title::before, .footer_link .ser_title::before, .footer_contact .ser_title::before {
+        left: 20%;
+    }
+
+}
+
+
+@media only screen and (min-width: 810px) and (max-width: 1025px){
+    .logo2{
+        margin: 20px 10px;
+    }
+
+    .nav_head ul {
+        right: 10px;
+        display: -webkit-inline-box;
+    }    
+
+    .visiting.col-md-9 {
+        padding-left: 45px;
+    }
+
+    .nav_head_below_header ul {
+        margin-left: 0px;
+    }
+
+    .visiting .col-sm-4 {
+        margin-right: 0px;
+        font-size: 15px;
+    }
+
+    .visiting .col-sm-4 i, .visiting12 i {
+        font-size: 40px;
+        margin-right: 5px;
+    }
+
+    .navbar-brand.logo1 img {
+        margin-left: 15px;
+    }
+
+    .slider {
+        margin-top: 65px;
+    }
+
+    .topic_between .container-fluid .col-md-12 {
+        padding: 5px 30px 25px 30px;
+        display: block;
+        text-align: center;
+    }
+
+    .topic_between .container-fluid .col-md-12 p {
+        font-size: 25px;
+    }
+
+    .topic_between .baton {
+        margin-top: 20px;
+    }
+
+    .topic_between .baton a {
+        padding: 15px 30px;
+        margin-left: 0px;
+    }
+
+    .about {
+        padding: 0px 130px;
+    }
+
+    .aboutImg img {
+        height: 100%;
+        width: 180%;
+    }
+
+    .col-lg-6.col-md-6.col-sm-6.aboutImg {
+        padding: 80px 10px 25px 0px;
+    }
+    
+    .aboutImg .row .col-md-6{
+        max-width: 100% !important;
+    }
+    
+    .aboutImg .row {
+        display: block;
+    }
+    
+    .col-lg-6.col-md-6.col-sm-6.aboutText {
+        font-size: 19px;
+    }
+
+    .community_logo img {
+        width: 230px;
+        height: 130px;
+    }
+
+    .top_footer {
+        padding: 15px 20px;
+        color: #e3e3ea;
+        font-size: 15px;
+    }
+
+    .footer_logo img {
+        height: 80px;
+        width: 200px;
+    }
+
+    .service_menu, .link_menu ul.navbar-nav {
+        margin-top: 0px;
+        font-size: 17px;
+        margin-left: 60px;
+    }
+
+    .footerSurana .baton a {
+        padding: 6px 8px;
+        margin-left: -8px;
+    }
+
+    .email_msg p {
+        font-size: initial;
+    }
+
+    .bottom_footer p {
+        margin-left: 0px;
+        font-size: smaller;
+    }
+
+    .social_media2 a i {
+        padding: 8px;
+    }
+
+    .footer_serve .ser_title::before, .footer_link .ser_title::before, .footer_contact .ser_title::before {
+        left: 25%;
+    }
+
+    .col-md-4.SUSHA {
+        text-align: center;
+    }
+    
+    .col-md-4.SUSHA h6{
+        font-size: smaller;
+    }
+}
