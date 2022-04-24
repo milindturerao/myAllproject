@@ -3,7 +3,7 @@ var imageArrayContainer = document.getElementById("imageArray1");
 
 function createImageArray() {
     var theImage = document.createElement('img');
-    theImage.src = "/img/drop.png";
+    theImage.src = "img/drop.png";
     theImage.width = "10";
     theImage.style.margin = "-1px";
     return theImage;
@@ -17,7 +17,7 @@ var imageArrayContainer = document.getElementById("imageArray2");
 
 function createImageArray() {
     var theImage = document.createElement('img');
-    theImage.src = "/img/drop.png";
+    theImage.src = "img/drop.png";
     theImage.width = "10";
     theImage.style.margin = "1px";
     return theImage;
@@ -31,7 +31,7 @@ var imageArrayContainer = document.getElementById("imageArray3");
 
 function createImageArray() {
     var theImage = document.createElement('img');
-    theImage.src = "/img/drop.png";
+    theImage.src = "img/drop.png";
     theImage.width = "10";
     theImage.style.margin = "1px";
     return theImage;
@@ -46,7 +46,7 @@ var imageArrayContainer = document.getElementById("imageArray4");
 
 function createImageArray() {
     var theImage = document.createElement('img');
-    theImage.src = "/img/drop.png";
+    theImage.src = "img/drop.png";
     theImage.width = "1px";
     theImage.style.margin = "1px";
     return theImage;
@@ -60,7 +60,7 @@ var imageArrayContainer = document.getElementById("imageArray5");
 
 function createImageArray() {
     var theImage = document.createElement('img');
-    theImage.src = "/img/drop.png";
+    theImage.src = "img/drop.png";
     theImage.width = "10";
     theImage.style.margin = "0.5px";
     return theImage;
