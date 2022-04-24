@@ -1,0 +1,15 @@
+ Intro   
+ Project Setup 
+ Bootstrap 5 Navbar HTML
+ Bootstrap 5 Navbar CSS
+ Bootstrap 5 Navigation CSS
+ Bootstrap 5 Website Banner Section HTML
+ Bootstrap 5 Website Banner Section CSS
+ Bootstrap 5 Countdown Effect HTML
+ Bootstrap 5 Countdown Effect CSS
+ Bootstrap 5 Countdown JavaScript
+ Bootstrap 5 Scroll Top Fixed JavaScript
+ Bootstrap 5 On Click Collapse Navigation
+ Bootstrap 5 Media Query CSS
+ Responsive Food Website using Bootstrap 5 Completed
+ https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;600;700;900&display=swap

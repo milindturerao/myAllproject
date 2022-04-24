@@ -1,0 +1,18 @@
+body {
+  background: rgba(77, 76, 76, 0.644);
+}
+.sumary{
+  float: left !important;
+}
+.bg-primary {
+  background-color: rgba(5, 5, 251, 0.027) !important;
+}
+.bg-success {
+  background-color: rgba(0, 0, 255, 0.027) !important;
+}
+.bg-warning {
+  background-color: rgba(0, 0, 255, 0.027) !important;
+}
+.bg-danger {
+    background-color: rgba(0, 0, 255, 0.027) !important;
+  }
